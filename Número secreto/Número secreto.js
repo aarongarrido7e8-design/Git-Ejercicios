@@ -21,4 +21,4 @@ while (!adivinado) {
   }
 }
 
-alert(`Lo lograste en ${intentos} intentos.`);
+alert("Lo lograste en ${intentos} intentos.");
