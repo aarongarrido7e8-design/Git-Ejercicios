@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .tecla {
+            width: 100px;
+            height: 100px;
+            border: 5px solid black;
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            text-align: center;
+            margin: 20px;
+
+
+            #teclado {
+                display: flex;
+                flex-wrap: wrap;
+                width: 350px;
+            }
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="titulo">Teclado numérico</h1>
+    <div id="teclado">
+
+    </div>
+
+    <script>
+
+        //Cojo el div del teclado, para luego ir añadiendo
+        let teclado = document.getElementById("teclado")
+
+        for (let i = 1; i < 50; i++) {
+            //creo la tecla
+            let tecla = document.createElement("div");
+            tecla.innerHTML = "<p>" + i + "</p>";
+            tecla.className = "tecla";
+
+            //añado la tecla al teclado
+            teclado.appendChild(tecla);
+        }
+    </script>
+</body>
+
+</html>
