@@ -15,14 +15,50 @@
             color: black;
             text-align: center;
             margin: 5px;
-
         }
 
         #teclado {
             display: flex;
             flex-wrap: wrap;
             width: 800px;
+        }
 
+        #miTexto {
+            width: 300px;
+            height: 50px;
+            background-color: #00b0ff;
+            color: blueviolet;
+            font-size: 24px;
+            border: 2px black solid;
+            border-radius: 15px;
+            margin-bottom: 20px;
+
+        }
+
+        .boton_borrar {
+            width: 200px;
+            height: 30px;
+            border: 3px black solid;
+            background-color: black;
+            border-radius: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .boton_comprobar {
+            width: 200px;
+            height: 30px;
+            border: 3px black solid;
+            background-color: black;
+            border-radius: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            margin: 5px;
         }
     </style>
     <title>Teclado alfabético</title>
@@ -30,11 +66,14 @@
 
 <body>
     <h1 id="titulo">Teclado alfabético</strong></h1>
-    <div id="teclado">
+    <div id="miTexto"></div>
+    <div class="boton_borrar">Borrar letra</div>
+    <div class="boton_comprobar">Comprobar</div>
+    <div id="teclado"></div>
+    
 
-    </div>
     <script src="Teclado alfabético.js">
-        
+
     </script>
 </body>
 
