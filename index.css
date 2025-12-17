@@ -1,17 +1,17 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
+h1 {
     font-size: 40px;
 }
 
-h2{
+h2 {
     font-size: 25px;
 }
 
 
-.proyectos{
+.proyectos {
     display: flex;
     justify-content: space-around;
     margin-left: 50px;
@@ -19,20 +19,36 @@ h2{
 
 }
 
-.proyecto_boton {
+.proyecto_boton_1 {
     display: flex;
-    justify-content: center; /* Centrado horizontal */
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
     border: 2px solid black;
     border-radius: 15px;
     background-color: #00b0ff;
-    width: 200px;
+    width: 225px;
     height: 50px;
 }
 
-.proyecto_texto{
+.proyecto_boton_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #04dd04;
+    width: 225px;
+    height: 50px;
+}
+
+.proyecto_boton:hover {
+    background-color: #cccccc;
+}
+
+.proyecto_texto {
     text-align: center;
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
 }
