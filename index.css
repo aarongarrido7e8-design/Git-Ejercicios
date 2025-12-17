@@ -3,9 +3,36 @@
 }
 
 h1{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 h2{
-    font-size: 20px;
+    font-size: 25px;
+}
+
+
+.proyectos{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.proyecto_boton {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; 
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #00b0ff;
+    width: 200px;
+    height: 50px;
+}
+
+.proyecto_texto{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
